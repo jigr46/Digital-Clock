@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url("./1.jpg") no-repeat fixed center/cover ;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container{
+    width: 500px;
+    height: 180px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+    color: white;
+    border-radius: 25px;
+}
+.container h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', fantasy;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    letter-spacing: 2px;
+    
+    
+}
+.clock-time{
+    width: 500px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', fantasy;
+    font-size: 60px;
+
+}
+
